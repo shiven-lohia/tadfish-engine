@@ -1,0 +1,1 @@
+To test Tadfish against Stockfish, download the stockfish executable from https://github.com/official-stockfish/Stockfish and place it in this folder, renamed to "stockfish.exe".
