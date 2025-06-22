@@ -50,7 +50,7 @@ Tadfish is an intermediate-level chess engine written in C++ with a Python-based
 ### 1. Compile the Engine (C++)
 
 ```bash
-g++ -Iinclude src/*.cpp main.cpp -o chess
+g++ -Iinclude src/*.cpp main.cpp -o tadfish
 ```
 
 ### 2. Run the GUI (Python)
