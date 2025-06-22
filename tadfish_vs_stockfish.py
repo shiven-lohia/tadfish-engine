@@ -6,6 +6,8 @@ import subprocess
 import pygame
 from PIL import Image, ImageTk
 
+# IMPORTANT: FOLLOW test_engines/instructions.txt FOR THIS TO WORK!
+
 # Set this variable to control engine search depth globally
 simulation_depth = 5
 
