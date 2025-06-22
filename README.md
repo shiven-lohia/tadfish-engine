@@ -6,6 +6,7 @@ Tadfish is an intermediate-level chess engine written in C++ with a Python-based
 
 ## 🔧 Features
 
+* Roughly ~**1700-1800** elo based on testing against Stockfish
 * C++ backend for efficient move generation and evaluation
 * Python GUI using Tkinter and Pygame for interactive gameplay
 * Chess.com-like sound effects and graphical feedback
