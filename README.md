@@ -79,21 +79,21 @@ python player_vs_tadfish.py
 | Version   | Description                                                                                                                                                                        |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Beta**  | Initial PvP GUI, Chess backend in C++                                                                                                                                              |
-| **1.0**   | Basic engine with evaluation using material value and PST and search using minimax. Improved UI by adding drag moves, legal move highlight, piece sounds, capture/checkmate sounds |
-| **1.0.1** | Added a second GUI for simulating Tadfish vs Tadfish for testing                                                                                                                   |
-| **1.0.2** | Added precompute.h with precomputed pseudo-legal moves for every piece at every square                                                                                             |
-| **1.0.3** | Fixed bugs related to pawn promotion, en passant, and castling                                                                                                                     |
-| **1.1**   | Changed to negamax with alpha-beta pruning; added different endgame PST for pieces like the king                                                                                   |
-| **1.1.1** | Implemented MVV-LVA move ordering to improve alpha-beta pruning efficiency                                                                                                         |
-| **1.2**   | Added Iterative Deepening, Quiescent Search, and Aspiration Windows                                                                                                                |
-| **1.2.1** | Fixed bug with king not switching to endgame PST correctly                                                                                                                         |
-| **1.3**   | Rewrote castling logic to prevent castling through attacked squares                                                                                                                |
-| **1.3.1** | Fixed infinite recursion bug in castling move generation                                                                                                                           |
-| **2.0**   | Complete overhaul of GUI with a dark theme; fixed critical GUI bugs                                                                                                                |
-| **2.1**   | Added GUIs for Player vs Tadfish and Tadfish vs Stockfish                                                                                                                          |
-| **2.1.1** | Updated all GUIs to match new dark-themed design                                                                                                                                   |
-| **2.1.2** | Minor updates to all GUIs                                                                                                                                                          |
-| **2.2**   | Cleaned up code directory; improved code comments                                                                                                                                  |
+| **v1.0**   | Basic engine with evaluation using material value and PST and search using minimax. Improved UI by adding drag moves, legal move highlight, piece sounds, capture/checkmate sounds |
+| **v1.0.1** | Added a second GUI for simulating Tadfish vs Tadfish for testing                                                                                                                   |
+| **v1.0.2** | Added precompute.h with precomputed pseudo-legal moves for every piece at every square                                                                                             |
+| **v1.0.3** | Fixed bugs related to pawn promotion, en passant, and castling                                                                                                                     |
+| **v1.1**   | Changed to negamax with alpha-beta pruning; added different endgame PST for pieces like the king                                                                                   |
+| **v1.1.1** | Implemented MVV-LVA move ordering to improve alpha-beta pruning efficiency                                                                                                         |
+| **v1.2**   | Added Iterative Deepening, Quiescent Search, and Aspiration Windows                                                                                                                |
+| **v1.2.1** | Fixed bug with king not switching to endgame PST correctly                                                                                                                         |
+| **v1.3**   | Rewrote castling logic to prevent castling through attacked squares                                                                                                                |
+| **v1.3.1** | Fixed infinite recursion bug in castling move generation                                                                                                                           |
+| **v2.0**   | Complete overhaul of GUI with a dark theme; fixed critical GUI bugs                                                                                                                |
+| **v2.1**   | Added GUIs for Player vs Tadfish and Tadfish vs Stockfish                                                                                                                          |
+| **v2.1.1** | Updated all GUIs to match new dark-themed design                                                                                                                                   |
+| **v2.1.2** | Minor updates to all GUIs                                                                                                                                                          |
+| **v2.2**   | Cleaned up code directory; improved code comments                                                                                                                                  |
 
 ---
 
