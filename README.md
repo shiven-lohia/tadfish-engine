@@ -114,6 +114,6 @@ python player_vs_tadfish.py
 └── tadfish.exe             # Compiled engine binary
 ```
 
-## 👨‍💼 Author
+## Author
 
 Developed by [Shiven Lohia](https://github.com/shiven-lohia)
