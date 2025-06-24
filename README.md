@@ -1,17 +1,17 @@
-# ♟ Tadfish Engine and GUI
+# Tadfish Engine and GUI
 
 Tadfish is an intermediate-level chess engine written in C++ with a Python-based GUI. It was developed as a coding project to explore core concepts in game tree search, evaluation heuristics, and C++ performance optimization.
 
 ---
 
-## 🔧 Features
+## Features
 
 * Roughly ~**1700-1800** elo based on testing against Stockfish
 * C++ backend for efficient move generation and evaluation
 * Python GUI using Tkinter and Pygame for interactive gameplay
 * Chess.com-like sound effects and graphical feedback
 
-### 🧠 Engine Techniques
+### Engine Techniques
 
 * **Negamax** framework for simplified recursive game tree search
 * **Alpha-Beta Pruning** to eliminate unnecessary branches
@@ -22,7 +22,7 @@ Tadfish is an intermediate-level chess engine written in C++ with a Python-based
 * **Quiescent Search** to avoid horizon effect on volatile positions
 * **Move Ordering** using **MVV-LVA** (Most Valuable Victim - Least Valuable Attacker)
 
-### 🎮 Game Modes
+### Game Modes
 
 * Player vs Player
 * Player vs Tadfish
@@ -31,7 +31,7 @@ Tadfish is an intermediate-level chess engine written in C++ with a Python-based
 
 ---
 
-## 🚧 Upcoming Features
+## Upcoming Features
 
 * Complete UCI support (Very high prioity)
 * Opening book support (high priority)
@@ -45,7 +45,7 @@ Tadfish is an intermediate-level chess engine written in C++ with a Python-based
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### 1. Compile the Engine (C++)
 
@@ -64,7 +64,7 @@ python player_vs_tadfish.py
 
 ---
 
-## ⚠️ Known Drawbacks
+## Known Drawbacks
 
 * No opening theory
 * Only supports one move outputs taking FEN as input, limited UCI support
@@ -74,7 +74,7 @@ python player_vs_tadfish.py
 
 ---
 
-## 📜 Version History
+## Version History
 
 | Version   | Description                                                                                                                                                                        |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -97,7 +97,7 @@ python player_vs_tadfish.py
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
